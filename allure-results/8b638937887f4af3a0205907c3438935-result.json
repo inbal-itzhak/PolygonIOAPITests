@@ -1,0 +1,53 @@
+{
+  "uuid": "cea37715-26ee-43cd-9aee-67144ccbbee3",
+  "historyId": "f5cee1f743924d4375fe1cc780311d51",
+  "testCaseId": "0802cc8a2b28d5f0a71dc1dc9f993773",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.VerifyChartData()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyChartData"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "VerifyChartData",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  actual chart info one day is: This 1 minute mountain chart displays price over time for symbol NFLX between 12/23/2024, 4:00:00 AM and 12/24/2024, 9:49:00 AM.  The chart also displays Volume Underlay study.\r\n  Expected string length 172 but was 176. Strings differ at index 81.\r\n  Expected: \"...me for symbol NFLX between 12/19/2024, 11:00 pm and 12/20/...\"\r\n  But was:  \"...me for symbol NFLX between 12/23/2024, 4:00:00 AM and 12/2...\"\r\n  --------------------------------------------^\r\n",
+    "trace": "   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.VerifyChartData() in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 117\r\n"
+  },
+  "stage": "finished",
+  "description": "Verify Chart Data\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1734952028878,
+  "stop": 1734952068996
+}

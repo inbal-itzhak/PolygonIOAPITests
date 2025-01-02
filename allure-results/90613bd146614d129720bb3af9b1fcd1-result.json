@@ -1,0 +1,120 @@
+{
+  "uuid": "5859e6bf-9615-4831-b421-6c760b66665b",
+  "historyId": "092dab761a7f8b9357ef3e2f7a985834",
+  "testCaseId": "351142cb2cdf0eaf5782e81e93c6bc79",
+  "fullName": "PolygonTests:PolygonTests.Tests.CheckStockRatesTests.GetOpenRate(System.String,System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetOpenRate"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckStockRatesTests"
+    }
+  ],
+  "links": [],
+  "name": "GetOpenRate(\"WDAY\",\"2024-11-29\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: not null\r\n  But was:  null\r\n",
+    "trace": "   at PolygonTests.APITests.AlphaWaveAPI.AlphaVantageSteps.GetAlphaVantageOpenCloseMetaData(String ticker) in D:\\Dev\\Automatiom_Course\\PolygonTests\\APITests\\AlphaWaveAPI\\AlphaVantageSteps.cs:line 40\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsyncGeneric[T](Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at PolygonTests.Tests.CheckStockRatesTests.GetOpenRate(String ticker, String date) in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\CheckStockRatesTests.cs:line 60\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\n"
+  },
+  "stage": "finished",
+  "description": "Get Stock Open Rate for 2024-11-29 compare to AlphaVantage quote\n",
+  "steps": [
+    {
+      "name": "Send Get Open Close Data Reuest for PolygonIO in specific date",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ticker",
+          "value": "\"WDAY\"",
+          "excluded": false
+        },
+        {
+          "name": "date",
+          "value": "\"2024-11-29\"",
+          "excluded": false
+        }
+      ],
+      "start": 1733387771580,
+      "stop": 1733387771743
+    },
+    {
+      "name": "Get AlphaVantage Open Close MetaData",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: not null\r\n  But was:  null\r\n",
+        "trace": "NUnit.Framework.AssertionException:   Expected: not null\r\n  But was:  null\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsNotNull(Object anObject)\r\n   at PolygonTests.APITests.AlphaWaveAPI.AlphaVantageSteps.GetAlphaVantageOpenCloseMetaData(String ticker) in D:\\Dev\\Automatiom_Course\\PolygonTests\\APITests\\AlphaWaveAPI\\AlphaVantageSteps.cs:line 40\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsyncGeneric[T](Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ticker",
+          "value": "\"WDAY\"",
+          "excluded": false
+        }
+      ],
+      "start": 1733387771743,
+      "stop": 1733387771923
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "7668a387-4e0e-44d0-a3df-878d9cefb25f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"WDAY\"",
+      "excluded": false
+    },
+    {
+      "name": "date",
+      "value": "\"2024-11-29\"",
+      "excluded": false
+    }
+  ],
+  "start": 1733387771580,
+  "stop": 1733387771924
+}

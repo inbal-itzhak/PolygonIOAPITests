@@ -1,0 +1,85 @@
+{
+  "uuid": "840d4cb4-484c-4620-a0d0-306208696987",
+  "historyId": "54872d3865dacbf84e6d19296d29416c",
+  "testCaseId": "91da06dca7647696d722e8a069766e04",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "QuoteDataValidation"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "QuoteDataValidation(\"BKNG\")",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Quote lookup functionality\n",
+  "steps": [
+    {
+      "name": "Send Get Open Close Data Reuest for PolygonIO in specific date",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ticker",
+          "value": "\"BKNG\"",
+          "excluded": false
+        },
+        {
+          "name": "date",
+          "value": "\"2024-12-20\"",
+          "excluded": false
+        }
+      ],
+      "start": 1734863361756,
+      "stop": 1734863362564
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "284c9728-f87a-4d62-922a-b3694981a234-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"BKNG\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734863341209,
+  "stop": 1734863435972
+}

@@ -1,0 +1,53 @@
+{
+  "uuid": "eeb44734-cbe0-43e6-8c05-368bd1eb57de",
+  "historyId": "f5cee1f743924d4375fe1cc780311d51",
+  "testCaseId": "0802cc8a2b28d5f0a71dc1dc9f993773",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.VerifyChartData()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyChartData"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "VerifyChartData",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#tab-1d-qsp\"}\n  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at PolygonTests.SeleniumTests.POM.StockChart.SelectOneDayChart() in D:\\Dev\\Automatiom_Course\\PolygonTests\\SeleniumTests\\POM\\StockChart.cs:line 33\r\n   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.VerifyChartData() in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 114\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "description": "Verify Chart Data\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1735807001142,
+  "stop": 1735807015853
+}

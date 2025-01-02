@@ -1,0 +1,12 @@
+{
+  "uuid": "3f3ecaa4-6919-481a-bd3f-b2307d830fda",
+  "name": "PolygonTests.Tests.CheckStockRatesTests.GetDayHighRate(\"WDAY\",\"2024-11-29\")",
+  "children": [
+    "c4f6a6ba-5a62-4e67-aac1-07ee3bfe8473"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734344472726,
+  "stop": 1734344473136
+}

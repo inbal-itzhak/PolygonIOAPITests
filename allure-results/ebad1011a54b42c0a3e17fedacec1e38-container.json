@@ -1,0 +1,31 @@
+{
+  "uuid": "86e0f205-8e60-4f63-8e25-b0b4843e5564",
+  "name": "PolygonTests.Tests.CheckStockRatesTests",
+  "children": [
+    "7e1692d4-16f1-4807-ab64-3e5fc0276e32",
+    "ff90f5f0-9b1d-47fc-aa1c-cf49492b2cb6",
+    "5f103b2b-c148-4d91-8f15-24a4ccb3c244",
+    "c70e4c88-0528-478c-ba00-ace2e4a29446",
+    "877a3d17-2316-4d8e-a50d-a67523dd9622",
+    "819213b0-ad0c-4699-9f6b-10bb3dda7152",
+    "c4f6a6ba-5a62-4e67-aac1-07ee3bfe8473",
+    "e7a3b8c6-8832-44e8-8691-825e9da9ce50",
+    "e443de44-3894-49e2-bf09-b39f7e72eb43",
+    "061babec-baae-47ff-8e5c-00a02aebd9df",
+    "bf03c137-80f7-4704-b771-37e21669deb9",
+    "11eccfdd-a1d8-4f15-85d0-f14bd212c3ad",
+    "574a180d-e41e-400a-8240-05f79578651c",
+    "d4e58279-a89a-4dd0-8f12-fb9a61018c6c",
+    "1d25678b-4db6-4df5-8c10-a63777654395",
+    "a150d995-6117-4cf8-a391-7eb4ba1aff54",
+    "38354812-aa93-4155-a927-1106f533818c",
+    "8c8538b7-d07f-40dc-91f5-77b511dfec4e",
+    "fbed418e-a267-413a-8ed5-6617c5a00b1c",
+    "3d0d9fbc-d302-4b67-b0c3-eb199f3871e4"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734344427921,
+  "stop": 1734344483132
+}

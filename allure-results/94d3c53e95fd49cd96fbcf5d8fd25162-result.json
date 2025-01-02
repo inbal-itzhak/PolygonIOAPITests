@@ -1,0 +1,92 @@
+{
+  "uuid": "f499cd9b-21f0-4095-b9f6-b4c4b7df1fb8",
+  "historyId": "54872d3865dacbf84e6d19296d29416c",
+  "testCaseId": "91da06dca7647696d722e8a069766e04",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "QuoteDataValidation"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "QuoteDataValidation(\"BKNG\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expecred Previous close rate 5048.59, Actual previous close rate 4,980.40\r\n  Expected string length 8 but was 7. Strings differ at index 0.\r\n  Expected: \"4,980.40\"\r\n  But was:  \"5048.59\"\r\n  -----------^\r\n",
+    "trace": "   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(String ticker) in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 85\r\n"
+  },
+  "stage": "finished",
+  "description": "Quote lookup functionality\n",
+  "steps": [
+    {
+      "name": "Send Get Open Close Data Reuest for PolygonIO in specific date",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ticker",
+          "value": "\"BKNG\"",
+          "excluded": false
+        },
+        {
+          "name": "date",
+          "value": "\"2024-12-20\"",
+          "excluded": false
+        }
+      ],
+      "start": 1734859716092,
+      "stop": 1734859716867
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "ea3d8080-1a13-427d-af61-759e017f90be-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"BKNG\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734859694227,
+  "stop": 1734859741889
+}

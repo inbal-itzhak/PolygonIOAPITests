@@ -1,0 +1,92 @@
+{
+  "uuid": "3110113a-2b61-40db-9711-e6494175b83b",
+  "historyId": "c6a219d8a0f074c46ebaa0043c8091c1",
+  "testCaseId": "91da06dca7647696d722e8a069766e04",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "QuoteDataValidation"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "QuoteDataValidation(\"MSFT\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected stock volume 55820435, Actual stock volume 64235200\r\n  Expected: 64235200.0d\r\n  But was:  55820435.0d\r\n",
+    "trace": "   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(String ticker) in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 87\r\n"
+  },
+  "stage": "finished",
+  "description": "Quote lookup functionality\n",
+  "steps": [
+    {
+      "name": "Send Get Open Close Data Reuest for PolygonIO in specific date",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ticker",
+          "value": "\"MSFT\"",
+          "excluded": false
+        },
+        {
+          "name": "date",
+          "value": "\"2024-12-20\"",
+          "excluded": false
+        }
+      ],
+      "start": 1734885396498,
+      "stop": 1734885396747
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "6195c363-510c-4780-81d5-98947989d6c4-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"MSFT\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734885393104,
+  "stop": 1734885407640
+}

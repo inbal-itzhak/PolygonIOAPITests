@@ -1,0 +1,16 @@
+{
+  "uuid": "48bfd1bc-c78b-47dd-ae9b-c58aad2844a2",
+  "name": "PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests",
+  "children": [
+    "d7eb90bb-12bb-4eb9-93c2-f3cb2ded12e4",
+    "af3ad89e-1bc8-426d-b449-cf9d0455dfff",
+    "63a3bf1a-912b-40ff-8adc-c7c6efb39ba7",
+    "fb5cecb5-6331-4687-8cdd-68e4fd4fb214",
+    "d1491852-026f-46cc-af41-062d171bcc32"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734615580827,
+  "stop": 1734615647162
+}

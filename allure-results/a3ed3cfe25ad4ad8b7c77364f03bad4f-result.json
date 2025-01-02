@@ -1,0 +1,53 @@
+{
+  "uuid": "853e090f-4b3d-4eec-b026-a642fc08f266",
+  "historyId": "091611241440eecf2162d6f456187a7a",
+  "testCaseId": "32e2ea18e5454a52258a7026d0821aaf",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.StockDataTypeValidation()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "StockDataTypeValidation"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "StockDataTypeValidation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Stock name is Netflix, Inc. (NFLX)\r\n  Expected string length 13 but was 20. Strings differ at index 13.\r\n  Expected: \"Netflix, Inc.\"\r\n  But was:  \"Netflix, Inc. (NFLX)\"\r\n  ------------------------^\r\n",
+    "trace": "   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.StockDataTypeValidation() in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 100\r\n"
+  },
+  "stage": "finished",
+  "description": "Verify Real time Stock data has values\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1734881518359,
+  "stop": 1734881538350
+}

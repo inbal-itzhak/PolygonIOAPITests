@@ -1,0 +1,65 @@
+{
+  "uuid": "648ebe6a-a47e-40fc-8063-cf43ff984944",
+  "historyId": "3f653b3c735dcaf632566e74afa03124",
+  "testCaseId": "feaaff429910d827c516903f258b4b50",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.LookupQuote(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LookupQuote"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "LookupQuote(\"WDAY\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 4. Strings differ at index 0.\r\n  Expected: \"WDAY\"\r\n  But was:  \"TSLA\"\r\n  -----------^\r\n",
+    "trace": "   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.LookupQuote(String ticker) in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 37\r\n   at InvokeStub_YahooFinanaceUITests.LookupQuote(Object, Span`1)\r\n"
+  },
+  "stage": "finished",
+  "description": "Quote lookup functionality\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "df87895a-ccbd-4f8b-af17-0fe37c48e5fd-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"WDAY\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734620199034,
+  "stop": 1734620199463
+}

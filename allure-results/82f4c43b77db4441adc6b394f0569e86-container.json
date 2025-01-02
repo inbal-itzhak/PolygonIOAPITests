@@ -1,0 +1,12 @@
+{
+  "uuid": "904f1ce0-9726-4626-965e-ee7e172560e9",
+  "name": "PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.LookupQuote(\"WDAY\")",
+  "children": [
+    "7128c039-a4f9-4cdc-bb72-4bd1379648f0"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734621772077,
+  "stop": 1734621778559
+}

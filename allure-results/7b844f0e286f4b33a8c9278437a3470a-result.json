@@ -1,0 +1,58 @@
+{
+  "uuid": "63a94a11-57f8-4efe-b31f-07026863864d",
+  "historyId": "dcaabe3c9db1ada52573bca4b2efb63b",
+  "testCaseId": "feaaff429910d827c516903f258b4b50",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.LookupQuote(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LookupQuote"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "LookupQuote(\"AMZN\")",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Quote lookup functionality\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "612c7ba2-89e0-4097-9207-dff68423654e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"AMZN\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734620199466,
+  "stop": 1734620207064
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "60884c4a-80cf-4f90-924e-8ddd815c4bb8",
+  "name": "PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(\"MSFT\")",
+  "children": [
+    "1961df4f-b9a1-4390-9d71-fba3b67501af"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734615336472,
+  "stop": 1734615336614
+}

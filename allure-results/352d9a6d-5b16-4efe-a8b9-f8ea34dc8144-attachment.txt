@@ -1,0 +1,30 @@
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v1/open-close/WDAY/2024-12-18?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v1/open-close/WDAY/2024-12-18?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Thu, 19 Dec 2024 13:50:56 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: 04a5c7fc2bb09c867d526bfc7ef77d4a
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"status":"OK","from":"2024-12-18","symbol":"WDAY","open":277.9,"high":280.18,"low":268.645,"close":268.93,"volume":3.657211e+06,"afterHours":278.57,"preMarket":277}
+199ms
+
+Polygon Response for stock WDAY: polygonSymbol: WDAY, polygonPreviousClose: 268.93,polygonOpenRate: 277.9,polygonVolume:3657211
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.get_Text()
+   at PolygonTests.SeleniumTests.POM.QuoteLookup.LookupQuote(String ticker) in D:\Dev\Automatiom_Course\PolygonTests\SeleniumTests\POM\QuoteLookup.cs:line 29
+   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(String ticker) in D:\Dev\Automatiom_Course\PolygonTests\Tests\Selenium Tests\YahooFinanaceUITests.cs:line 61

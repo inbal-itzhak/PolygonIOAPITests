@@ -1,0 +1,12 @@
+{
+  "uuid": "d3e3e79d-ed7b-4dd8-bfb9-107f9c9b4a77",
+  "name": "PolygonTests.Tests.CheckStockRatesTests.GetTradeVolume(\"TSLA\",\"2024-11-29\")",
+  "children": [
+    "8c8538b7-d07f-40dc-91f5-77b511dfec4e"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734344482417,
+  "stop": 1734344482622
+}

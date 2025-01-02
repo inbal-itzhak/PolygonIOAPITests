@@ -1,0 +1,136 @@
+{
+  "uuid": "2dd7e7da-bda8-4c4a-90da-5135b5df26c8",
+  "historyId": "3bffdc9a0799e7c52ac5cf88c11bd435",
+  "testCaseId": "ede43b5e482895a36bbcf8580ce9b670",
+  "fullName": "PolygonTests:PolygonTests.Tests.CheckStockRatesTests.GetClosingRate(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetClosingRate"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckStockRatesTests"
+    }
+  ],
+  "links": [],
+  "name": "GetClosingRate(\"TSLA\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: not null\r\n  But was:  null\r\n",
+    "trace": "   at PolygonTests.APITests.AlphaVantageAPI.AlphaVantageSteps.GetAlphaVantageOpenCloseMetaData(AlphaVantageOpenCloseResponseData alphaResponseData) in D:\\Dev\\Automatiom_Course\\PolygonTests\\APITests\\AlphaVantageAPI\\AlphaVantageSteps.cs:line 48\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsyncGeneric[T](Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at PolygonTests.Tests.CheckStockRatesTests.GetClosingRate(String ticker) in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\CheckStockRatesTests.cs:line 73\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\n"
+  },
+  "stage": "finished",
+  "description": "Get Stock Closing Rate for 2024-11-29compare to AlphaVantage quote\n",
+  "steps": [
+    {
+      "name": "Send Get Open Close Data Reuest for PolygonIO in specific date",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ticker",
+          "value": "\"TSLA\"",
+          "excluded": false
+        },
+        {
+          "name": "date",
+          "value": "\"2024-12-10\"",
+          "excluded": false
+        }
+      ],
+      "start": 1734360237755,
+      "stop": 1734360237955
+    },
+    {
+      "name": "send Get Open Close Data By Date for AlphaVantage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ticker",
+          "value": "\"TSLA\"",
+          "excluded": false
+        }
+      ],
+      "start": 1734360237955,
+      "stop": 1734360238143
+    },
+    {
+      "name": "Get AlphaVantage Open Close MetaData",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: not null\r\n  But was:  null\r\n",
+        "trace": "NUnit.Framework.AssertionException:   Expected: not null\r\n  But was:  null\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsNotNull(Object anObject)\r\n   at PolygonTests.APITests.AlphaVantageAPI.AlphaVantageSteps.GetAlphaVantageOpenCloseMetaData(AlphaVantageOpenCloseResponseData alphaResponseData) in D:\\Dev\\Automatiom_Course\\PolygonTests\\APITests\\AlphaVantageAPI\\AlphaVantageSteps.cs:line 48\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsyncGeneric[T](Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "alphaResponseData",
+          "value": "{\"MetaData\":null,\"TimeSeriesDaily\":null}",
+          "excluded": false
+        }
+      ],
+      "start": 1734360238143,
+      "stop": 1734360238144
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "57f4d8a5-ef31-4465-87a9-cc2018d3e0d5-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"TSLA\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734360237723,
+  "stop": 1734360238145
+}

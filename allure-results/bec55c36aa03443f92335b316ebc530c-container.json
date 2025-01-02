@@ -1,0 +1,12 @@
+{
+  "uuid": "f6f8768b-583e-4315-94ca-965c50d16212",
+  "name": "PolygonTests.Tests.CheckStockRatesTests.GetClosingRate(\"TSLA\")",
+  "children": [
+    "2dd7e7da-bda8-4c4a-90da-5135b5df26c8"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734360237723,
+  "stop": 1734360238145
+}

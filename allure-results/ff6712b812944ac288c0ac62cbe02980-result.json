@@ -1,0 +1,53 @@
+{
+  "uuid": "41377d57-de2f-4b03-a38d-b021a5e18f7b",
+  "historyId": "f5cee1f743924d4375fe1cc780311d51",
+  "testCaseId": "0802cc8a2b28d5f0a71dc1dc9f993773",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.VerifyChartData()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyChartData"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "VerifyChartData",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.FormatException : String '12/20/2024, 12:00:00 am' was not recognized as a valid DateTime.",
+    "trace": "   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)\r\n   at System.DateTime.Parse(String s)\r\n   at PolygonTests.SeleniumTests.POM.StockChart.GetExpectedChartTimesDescription(String ticker, TimePeriod timePeriod, DateTime previousBusinessDay) in D:\\Dev\\Automatiom_Course\\PolygonTests\\SeleniumTests\\POM\\StockChart.cs:line 74\r\n   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.VerifyChartData() in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 116\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Verify Chart Data\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1734884177734,
+  "stop": 1734884190056
+}

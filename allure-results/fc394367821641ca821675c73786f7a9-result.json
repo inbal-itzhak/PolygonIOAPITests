@@ -1,0 +1,99 @@
+{
+  "uuid": "3d0d9fbc-d302-4b67-b0c3-eb199f3871e4",
+  "historyId": "5e44910e128b481bf9eb6357007f0aca",
+  "testCaseId": "962754c27420dfb83f343e8060ada94f",
+  "fullName": "PolygonTests:PolygonTests.Tests.CheckStockRatesTests.GetTradeVolume(System.String,System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetTradeVolume"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckStockRatesTests"
+    }
+  ],
+  "links": [],
+  "name": "GetTradeVolume(\"AMZN\",\"2024-11-29\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Response status code is TooManyRequests, should be 200\r\n  Expected: 200\r\n  But was:  429\r\n",
+    "trace": "   at PolygonTests.APITests.PolygonAPI.PolygonSteps.GetStockOpenCloseDataByDatePolygonIO(String ticker, String date) in D:\\Dev\\Automatiom_Course\\PolygonTests\\APITests\\PolygonAPI\\PolygonSteps.cs:line 32\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsyncGeneric[T](Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at PolygonTests.Tests.CheckStockRatesTests.GetTradeVolume(String ticker, String date) in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\CheckStockRatesTests.cs:line 130\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\n"
+  },
+  "stage": "finished",
+  "description": "Get Stock trade volume for 2024-11-29compare to AlphaVantage quote\n",
+  "steps": [
+    {
+      "name": "Send Get Open Close Data Reuest for PolygonIO in specific date",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Response status code is TooManyRequests, should be 200\r\n  Expected: 200\r\n  But was:  429\r\n",
+        "trace": "NUnit.Framework.AssertionException:   Response status code is TooManyRequests, should be 200\r\n  Expected: 200\r\n  But was:  429\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at PolygonTests.APITests.PolygonAPI.PolygonSteps.GetStockOpenCloseDataByDatePolygonIO(String ticker, String date) in D:\\Dev\\Automatiom_Course\\PolygonTests\\APITests\\PolygonAPI\\PolygonSteps.cs:line 32\r\n   at Allure.Net.Commons.Steps.AllureAbstractStepAspect.WrapAsyncGeneric[T](Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ticker",
+          "value": "\"AMZN\"",
+          "excluded": false
+        },
+        {
+          "name": "date",
+          "value": "\"2024-11-29\"",
+          "excluded": false
+        }
+      ],
+      "start": 1734344482929,
+      "stop": 1734344483096
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "27694752-4fb7-4c11-8493-9c3eb77598ce-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"AMZN\"",
+      "excluded": false
+    },
+    {
+      "name": "date",
+      "value": "\"2024-11-29\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734344482929,
+  "stop": 1734344483131
+}

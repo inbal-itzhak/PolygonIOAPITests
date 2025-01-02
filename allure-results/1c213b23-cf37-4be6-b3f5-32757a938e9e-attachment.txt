@@ -1,0 +1,31 @@
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v1/open-close/MSFT/2024-12-18?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v1/open-close/MSFT/2024-12-18?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Thu, 19 Dec 2024 13:50:45 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: 89b9c02226de26102aca01696ac03a71
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"status":"OK","from":"2024-12-18","symbol":"MSFT","open":451.32,"high":452.65,"low":437.02,"close":437.39,"volume":2.3461009e+07,"afterHours":441.1,"preMarket":455.22}
+190ms
+
+Polygon Response for stock MSFT: polygonSymbol: MSFT, polygonPreviousClose: 437.39,polygonOpenRate: 451.32,polygonVolume:23461009
+stockSymbol: BKNG
+stockPreviousClose: 
+stockOpenRate: 
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression)
+   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(String ticker) in D:\Dev\Automatiom_Course\PolygonTests\Tests\Selenium Tests\YahooFinanaceUITests.cs:line 77

@@ -1,0 +1,12 @@
+{
+  "uuid": "8ba887a0-781b-42f7-8c15-640b1bbb3d87",
+  "name": "PolygonTests.Tests.CheckStockRatesTests",
+  "children": [
+    "194d864f-aa28-4826-9890-5a6e0e4f4aca"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1733643115447,
+  "stop": 1733643118576
+}

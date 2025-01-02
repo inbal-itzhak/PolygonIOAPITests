@@ -1,0 +1,12 @@
+{
+  "uuid": "c9bf4ea4-fbbc-4fab-b9f1-4367e73a9391",
+  "name": "PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(\"AMZN\")",
+  "children": [
+    "d1491852-026f-46cc-af41-062d171bcc32"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734615644700,
+  "stop": 1734615647158
+}

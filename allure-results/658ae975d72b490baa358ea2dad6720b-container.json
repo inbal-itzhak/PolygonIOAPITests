@@ -1,0 +1,12 @@
+{
+  "uuid": "bbcfeece-87d1-44ae-9a99-1717c8acbb97",
+  "name": "PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(\"BKNG\")",
+  "children": [
+    "8901e771-032c-4546-ae13-361815a3318a"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734858742628,
+  "stop": 1734858788554
+}

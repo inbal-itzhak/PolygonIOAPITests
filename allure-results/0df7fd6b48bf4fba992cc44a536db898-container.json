@@ -1,0 +1,12 @@
+{
+  "uuid": "76fcaf94-9d2d-4a33-859b-ec3685f2f95b",
+  "name": "PolygonTests.Tests.CheckStockRatesTests.GetOpenRate(\"AMZN\")",
+  "children": [
+    "72cbb4cb-d589-4505-be7f-d9dc3eae494d"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734360244954,
+  "stop": 1734360245399
+}

@@ -1,0 +1,28 @@
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v1/open-close/BKNG/2024-12-10?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP ERROR REQUEST: [GET] ==================== 
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+
+
+ ==================== HTTP RESPONSE: [FAILED: 429 TooManyRequests] ==================== 
+GET https://api.polygon.io/v1/open-close/BKNG/2024-12-10?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 429, ReasonPhrase: 'Too Many Requests', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Mon, 16 Dec 2024 14:43:58 GMT
+  Connection: keep-alive
+  X-Request-ID: 6e140d7ca7a386a5048e0c9a806219ed
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+  Content-Length: 206
+}
+{"status":"ERROR","request_id":"6e140d7ca7a386a5048e0c9a806219ed","error":"You've exceeded the maximum requests per minute, please wait or upgrade your subscription to continue. https://polygon.io/pricing"}
+154ms
+

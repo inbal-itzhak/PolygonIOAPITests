@@ -1,0 +1,92 @@
+{
+  "uuid": "50d04bb8-1742-4f03-bd77-74892606ba66",
+  "historyId": "54872d3865dacbf84e6d19296d29416c",
+  "testCaseId": "91da06dca7647696d722e8a069766e04",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "QuoteDataValidation"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "QuoteDataValidation(\"BKNG\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected stock volume 414710, Actual stock volume 463800\r\n  Expected: 463800.0d\r\n  But was:  414710.0d\r\n",
+    "trace": "   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(String ticker) in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 87\r\n"
+  },
+  "stage": "finished",
+  "description": "Quote lookup functionality\n",
+  "steps": [
+    {
+      "name": "Send Get Open Close Data Reuest for PolygonIO in specific date",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ticker",
+          "value": "\"BKNG\"",
+          "excluded": false
+        },
+        {
+          "name": "date",
+          "value": "\"2024-12-20\"",
+          "excluded": false
+        }
+      ],
+      "start": 1734885378348,
+      "stop": 1734885379445
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "4fe14bf4-e132-4042-b55b-d195db45f019-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"BKNG\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734885373486,
+  "stop": 1734885393055
+}

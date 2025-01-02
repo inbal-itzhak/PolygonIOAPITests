@@ -1,0 +1,12 @@
+{
+  "uuid": "c89c02b0-2a02-4489-bb92-2342e6ec7678",
+  "name": "PolygonTests.Tests.CheckStockRatesTests.GetOpenRate(\"MSFT\")",
+  "children": [
+    "e29614ee-3d56-4e59-92da-0d69738c8ebd"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734360241705,
+  "stop": 1734360242278
+}

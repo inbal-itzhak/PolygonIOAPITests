@@ -1,0 +1,65 @@
+{
+  "uuid": "98ab8365-a410-44c1-bfd9-62c3a87a3201",
+  "historyId": "9c1aacc3c5f8e2b54127172ea32f27c3",
+  "testCaseId": "feaaff429910d827c516903f258b4b50",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.LookupQuote(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LookupQuote"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "LookupQuote(\"TSLA\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 4. Strings differ at index 0.\r\n  Expected: \"TSLA\"\r\n  But was:  \"MSFT\"\r\n  -----------^\r\n",
+    "trace": "   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.LookupQuote(String ticker) in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 37\r\n   at InvokeStub_YahooFinanaceUITests.LookupQuote(Object, Span`1)\r\n"
+  },
+  "stage": "finished",
+  "description": "Quote lookup functionality\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "e0935871-fdc0-4b3c-9ad0-0475aa4d8def-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"TSLA\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734620342800,
+  "stop": 1734620345661
+}

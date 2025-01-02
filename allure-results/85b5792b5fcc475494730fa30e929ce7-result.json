@@ -1,0 +1,52 @@
+{
+  "uuid": "54814252-f713-42cb-9d21-b157453fefdb",
+  "historyId": "ea2b48657b48d61aa6cd3dc5f7936fe6",
+  "testCaseId": "feaaff429910d827c516903f258b4b50",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.LookupQuote(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LookupQuote"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "LookupQuote(\"BKNG\")",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Quote lookup functionality\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"BKNG\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734620183484,
+  "stop": 1734620188099
+}

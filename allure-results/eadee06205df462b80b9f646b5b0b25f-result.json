@@ -1,0 +1,52 @@
+{
+  "uuid": "5fabc5e4-55bc-4e89-aaef-c3578f8c98b4",
+  "historyId": "5180f71a28efe99900f82b45fac8c3aa",
+  "testCaseId": "feaaff429910d827c516903f258b4b50",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.LookupQuote(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LookupQuote"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "LookupQuote(\"MSFT\")",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Quote lookup functionality\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "ticker",
+      "value": "\"MSFT\"",
+      "excluded": false
+    }
+  ],
+  "start": 1734621756496,
+  "stop": 1734621764677
+}

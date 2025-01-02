@@ -1,0 +1,9 @@
+{
+  "allure": {
+    "directory": "..\\..\\..\\allure-results",
+    "title": "custom run title",
+    "links": [
+
+    ]
+  }
+}

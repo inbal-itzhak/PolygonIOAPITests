@@ -1,0 +1,31 @@
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v1/open-close/TSLA/2024-12-18?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v1/open-close/TSLA/2024-12-18?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Thu, 19 Dec 2024 14:16:55 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: 28b6c105b251a242ee94fd1fa547c4e4
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"status":"OK","from":"2024-12-18","symbol":"TSLA","open":466.495,"high":488.5399,"low":427.01,"close":440.13,"volume":1.49033301e+08,"afterHours":442,"preMarket":467}
+202ms
+
+Polygon Response for stock TSLA: polygonSymbol: TSLA, polygonPreviousClose: 440.13,polygonOpenRate: 466.495,polygonVolume:149033301
+stockSymbol: MSFT
+stockPreviousClose: 
+stockOpenRate: 
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression)
+   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.QuoteDataValidation(String ticker) in D:\Dev\Automatiom_Course\PolygonTests\Tests\Selenium Tests\YahooFinanaceUITests.cs:line 77

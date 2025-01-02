@@ -1,0 +1,12 @@
+{
+  "uuid": "269eb5e4-756d-4e28-9808-cd83411f8d6e",
+  "name": "PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.LookupQuote(\"TSLA\")",
+  "children": [
+    "3bfcb829-e11d-4a8c-8bbc-463a0ad42a33"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734620881588,
+  "stop": 1734620881816
+}

@@ -1,0 +1,53 @@
+{
+  "uuid": "55378715-12f7-4ec6-bfdd-144553a3b96f",
+  "historyId": "f5cee1f743924d4375fe1cc780311d51",
+  "testCaseId": "0802cc8a2b28d5f0a71dc1dc9f993773",
+  "fullName": "PolygonTests:PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.VerifyChartData()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonTests.Tests.Selenium_Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyChartData"
+    },
+    {
+      "name": "testClass",
+      "value": "YahooFinanaceUITests"
+    }
+  ],
+  "links": [],
+  "name": "VerifyChartData",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  actual chart info one day is: This 1 minute mountain chart displays price over time for symbol NFLX between 12/31/2024, 5:00:00 PM and 1/2/2025, 4:03:00 AM.  The chart also displays Volume Underlay study.\r\n  Expected string length 170 but was 174. Strings differ at index 78.\r\n  Expected: \"... time for symbol NFLX between 01/01/2025, 3:51 am and 01/0...\"\r\n  But was:  \"... time for symbol NFLX between 12/31/2024, 5:00:00 PM and 1...\"\r\n  --------------------------------------------^\r\n",
+    "trace": "   at PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests.VerifyChartData() in D:\\Dev\\Automatiom_Course\\PolygonTests\\Tests\\Selenium Tests\\YahooFinanaceUITests.cs:line 117\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\n"
+  },
+  "stage": "finished",
+  "description": "Verify Chart Data\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1735807851680,
+  "stop": 1735807878957
+}

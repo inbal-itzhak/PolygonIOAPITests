@@ -1,0 +1,12 @@
+{
+  "uuid": "e9adc189-9076-4a8f-a16b-51c19cffc084",
+  "name": "PolygonTests.Tests.CheckStockRatesTests.GetDayLowRate(\"TSLA\")",
+  "children": [
+    "2dea18ff-6f33-4f18-90ab-d99244880b46"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734360898338,
+  "stop": 1734360928708
+}

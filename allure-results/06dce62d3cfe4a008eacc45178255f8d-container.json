@@ -1,0 +1,12 @@
+{
+  "uuid": "c7f260f8-1ee6-446e-9ec6-6fab3125329a",
+  "name": "PolygonTests.Tests.Selenium_Tests.YahooFinanaceUITests",
+  "children": [
+    "840d4cb4-484c-4620-a0d0-306208696987"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734863308548,
+  "stop": 1734863436001
+}

@@ -1,0 +1,16 @@
+{
+  "uuid": "68d25d25-a41b-4370-a00f-87348ff4a761",
+  "name": "PolygonTests.Tests.CheckStockRatesTests",
+  "children": [
+    "ebd9a4c8-ab79-4853-9d65-578bdc2f7c48",
+    "588eea2a-f28b-45bd-9dc1-331d7463c6cb",
+    "1089e915-40ec-4ea9-95d9-90877af633c7",
+    "04b97dc4-5fda-4c17-9c5f-fd0ef0a0cdc1",
+    "538e55a1-0b18-4cbb-8ef8-8528b7247343"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734422982078,
+  "stop": 1734423165132
+}

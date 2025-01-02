@@ -1,0 +1,12 @@
+{
+  "uuid": "2832584c-c1e7-4cf2-8a0b-04a90c4e0863",
+  "name": "PolygonTests.Tests.CheckStockRatesTests.GetTradeVolume(\"MSFT\")",
+  "children": [
+    "ba12139c-7af0-4b44-9420-e920e2596a50"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1734360246144,
+  "stop": 1734360246335
+}
