@@ -1,0 +1,68 @@
+{
+  "uuid": "6468a6c9-ecaf-4e0b-8cb1-cd1cc7ab64c0",
+  "historyId": "1e927a8f42bae6866a69ed0c1a15895e",
+  "testCaseId": "55d6618581b335e0818cee244754b61a",
+  "fullName": "PolygonAPITests:PolygonAPITests.Tests.CheckCallStatusTests.PolygonGetTickerDetails()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonAPITests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PolygonGetTickerDetails"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckCallStatusTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Polygon.IO response code"
+    },
+    {
+      "name": "story",
+      "value": "Validate Polygon.IO response status code is 200"
+    },
+    {
+      "name": "epic",
+      "value": "Verify AlphaVentage and Polygon.IO API calls response"
+    }
+  ],
+  "links": [],
+  "name": "PolygonGetTickerDetails",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify status code for PolygonGetTickerDetails is 200\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "d9d46839-3597-4946-9e09-6f8134ac5aa6-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1737538674924,
+  "stop": 1737538675076
+}

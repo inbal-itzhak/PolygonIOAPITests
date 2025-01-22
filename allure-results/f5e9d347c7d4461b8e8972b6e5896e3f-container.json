@@ -1,0 +1,12 @@
+{
+  "uuid": "a6040285-7969-4fca-bb0d-a4dd46fb4b9a",
+  "name": "PolygonAPITests.Tests.CheckStockRatesTests.GetTradeVolume(\"AMZN\")",
+  "children": [
+    "e4322be7-7c4f-430a-8b9b-119ab9b4ff98"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737539408090,
+  "stop": 1737539438610
+}

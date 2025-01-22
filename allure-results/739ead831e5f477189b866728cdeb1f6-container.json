@@ -1,0 +1,12 @@
+{
+  "uuid": "ab5670d6-13a7-414e-9c63-38cb977fc814",
+  "name": "PolygonAPITests.Tests.CheckStockRatesTests.GetClosingRate(\"WDAY\")",
+  "children": [
+    "354d1a61-88ac-40ed-a83c-187a83ecdefb"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737538767319,
+  "stop": 1737538797886
+}

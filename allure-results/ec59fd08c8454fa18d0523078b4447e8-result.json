@@ -1,0 +1,68 @@
+{
+  "uuid": "ab75e4f5-54d0-4083-affc-5e0cebb6f5ab",
+  "historyId": "81a8d99fc7089e0a5abfc068fecb2c86",
+  "testCaseId": "11274aaa4798bd4a850f53f93af1ee68",
+  "fullName": "PolygonAPITests:PolygonAPITests.Tests.StockTickerApiTests.TestTickerMaxCharsAllowedInput()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonAPITests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestTickerMaxCharsAllowedInput"
+    },
+    {
+      "name": "testClass",
+      "value": "StockTickerApiTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "API Field Validation"
+    },
+    {
+      "name": "story",
+      "value": "Test API with maximum allowed ticker length"
+    },
+    {
+      "name": "epic",
+      "value": ""
+    }
+  ],
+  "links": [],
+  "name": "TestTickerMaxCharsAllowedInput",
+  "status": "passed",
+  "stage": "finished",
+  "description": "send request with ticker name with the Max chars allowed in nasdaq stocks:  5 chars\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "49e894ef-526e-474a-b31e-d9129642cb89-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1737539459392,
+  "stop": 1737539469569
+}

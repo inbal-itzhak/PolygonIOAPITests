@@ -1,0 +1,68 @@
+{
+  "uuid": "de1ab305-8648-46bc-a5fb-f6f28d6451b6",
+  "historyId": "e630c4ec1ef7e300bb7232c8f498b4b6",
+  "testCaseId": "36c62695b86fa66dcd04d86a800361c1",
+  "fullName": "PolygonAPITests:PolygonAPITests.Tests.StockTickerApiTests.ValidateOpenCloseResponseSchemaTest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonAPITests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateOpenCloseResponseSchemaTest"
+    },
+    {
+      "name": "testClass",
+      "value": "StockTickerApiTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "API Response Schema Validation"
+    },
+    {
+      "name": "story",
+      "value": "Ensure open/close response schema matches expected format"
+    },
+    {
+      "name": "epic",
+      "value": ""
+    }
+  ],
+  "links": [],
+  "name": "ValidateOpenCloseResponseSchemaTest",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Validating the response schema for a stock ticker query\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "d4e6e297-ee4e-4ec1-b12d-4dd4fa5ce0fc-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1737539489901,
+  "stop": 1737539500636
+}

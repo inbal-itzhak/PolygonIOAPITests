@@ -1,0 +1,12 @@
+{
+  "uuid": "f5edb212-45a1-48a5-9444-0ee29b1cc473",
+  "name": "PolygonAPITests.Tests.StockTickerApiTests.TestTickerWhiteSpaces",
+  "children": [
+    "a658e15b-cebc-4d89-9fa7-e2ede35bf502"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737539479740,
+  "stop": 1737539489901
+}

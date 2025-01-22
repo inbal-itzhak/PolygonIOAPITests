@@ -1,0 +1,18 @@
+{
+  "uuid": "63cfbb29-ec2e-47ed-a08a-3a172bfad75b",
+  "name": "PolygonAPITests.Tests.StockTickerApiTests",
+  "children": [
+    "d1db4896-0daf-41a9-b721-4682903c5962",
+    "2b9cec6d-7e35-485b-bd6a-625785c9851c",
+    "ab75e4f5-54d0-4083-affc-5e0cebb6f5ab",
+    "c09c7fc3-c91b-4052-a073-e3d174113a4d",
+    "a658e15b-cebc-4d89-9fa7-e2ede35bf502",
+    "de1ab305-8648-46bc-a5fb-f6f28d6451b6",
+    "95616137-e063-4c02-8629-1b14198882d1"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737539438611,
+  "stop": 1737539571732
+}

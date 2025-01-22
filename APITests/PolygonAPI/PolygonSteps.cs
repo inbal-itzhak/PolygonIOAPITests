@@ -3,7 +3,7 @@ using RestSharp;
 using System.Text.Json;
 
 
-namespace PolygonTests.APITests.PolygonAPI
+namespace PolygonAPITests.APITests.PolygonAPI
 {
 
     public class PolygonSteps : BaseTestAPI
@@ -19,7 +19,17 @@ namespace PolygonTests.APITests.PolygonAPI
             _polygonIORequests = new PolygonIORequests(_client, config["ApiKeys:PolygonIoApiKey"]);
         }
 
-        [AllureStep("Send Get Open Close Data Reuest for PolygonIO in specific date")]
+        [AllureStep("Get Stock {0} Company Information")]
+        public async Task<PolygonGeneralTickerData> GetStockCompanyData(string ticker)
+        {
+            var polygonResponse = await _polygonIORequests.GetTickerInfoAsync(ticker);
+            Assert.IsNotNull(polygonResponse);
+            Assert.That((int)polygonResponse.StatusCode, Is.EqualTo(200), $"Response status code is {polygonResponse.StatusCode}, should be 200");
+            var polygonResponseData = JsonSerializer.Deserialize<PolygonGeneralTickerData>(polygonResponse.Content);
+            return polygonResponseData;
+        }
+
+        [AllureStep("PolygonIO - Send Get Open Close Data Request for {0 } in specific date {0}")]
         public async Task <PolygonOpenCloseData> GetStockOpenCloseDataByDatePolygonIO(string ticker, string date)
         {
             var polygonResponse = await _polygonIORequests.GetOpenCloseData(ticker,date);
@@ -29,6 +39,7 @@ namespace PolygonTests.APITests.PolygonAPI
             return polygonResponseData;
         }
 
+        [AllureStep("Get the market open day")]
         public DateTime GetPreviousBusinessDay()
         {
             DateTime previousDay = DateTime.Today.AddDays(-1);
@@ -68,48 +79,48 @@ namespace PolygonTests.APITests.PolygonAPI
             TimeZoneInfo et = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
             DateTime now = DateTime.Now;
             now = now.Kind == DateTimeKind.Unspecified ? now : DateTime.Now;
-           // DateTime utcNow = TimeZoneInfo.ConvertTimeToUtc(now, TimeZoneInfo.Local);
-            DateTime easternTime = TimeZoneInfo.ConvertTime(now,TimeZoneInfo.Local, et);
-          //  DateTime now = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, et);
+            DateTime utcNow = TimeZoneInfo.ConvertTimeToUtc(now, TimeZoneInfo.Local);
+          //  DateTime easternTime = TimeZoneInfo.ConvertTime(now,TimeZoneInfo.Local, et);
+           // DateTime now = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, et);
             DateTime today = TimeZoneInfo.ConvertTime(DateTime.Today, TimeZoneInfo.Local, et);
 
-            if (easternTime.DayOfWeek != DayOfWeek.Saturday && now.DayOfWeek != DayOfWeek.Sunday)
+            if (utcNow.DayOfWeek != DayOfWeek.Saturday && now.DayOfWeek != DayOfWeek.Sunday)
             {
-               if(easternTime.TimeOfDay > openTime && easternTime.TimeOfDay < closeingTime)
+               if(utcNow.TimeOfDay > openTime && utcNow.TimeOfDay < closeingTime)
                 {
-                    return now;
+                    return now.ToUniversalTime();
                     //returnDateTime.UtcNow;
                 }
-               if(easternTime.TimeOfDay < openTime && easternTime.DayOfWeek == DayOfWeek.Monday)
+               if(utcNow.TimeOfDay < openTime && utcNow.DayOfWeek == DayOfWeek.Monday)
                 {
                     return TimeZoneInfo.ConvertTimeFromUtc(today.AddDays(-3).AddHours(16), et);
                    // return DateTime.Today.AddDays(-3).AddHours(16);
                 }
-               if(easternTime.TimeOfDay > closeingTime || easternTime.TimeOfDay < openTime)
+               if(utcNow.TimeOfDay > closeingTime || utcNow.TimeOfDay < openTime)
                 {
                     return TimeZoneInfo.ConvertTimeFromUtc(today.AddHours(16), et);
                     //return DateTime.Today.AddHours(16);
                 }
             }
-           else if(easternTime.DayOfWeek == DayOfWeek.Saturday)
+           else if(utcNow.DayOfWeek == DayOfWeek.Saturday)
             {
                 return TimeZoneInfo.ConvertTimeFromUtc(today.AddDays(-1).AddHours(16), et);
                // return DateTime.Today.AddDays(-1).AddHours(16);
             }
-            else if (easternTime.DayOfWeek == DayOfWeek.Sunday)
+            else if (utcNow.DayOfWeek == DayOfWeek.Sunday)
             {
                 return TimeZoneInfo.ConvertTimeFromUtc(today.AddDays(-2).AddHours(16), et);
                // return DateTime.Today.AddDays(-2).AddHours(16);
             }
             foreach(DateTime holiday in marketClosedDays) 
             {
-                if(easternTime.Date == holiday)
+                if(utcNow.Date == holiday)
                 {
                     return TimeZoneInfo.ConvertTimeFromUtc(GetPreviousBusinessDay().AddHours(16), et);
                    // GetPreviousBusinessDay().AddHours(16);
                 }
             }
-            return easternTime;
+            return utcNow;
             //returnDateTime.UtcNow;
         }
 

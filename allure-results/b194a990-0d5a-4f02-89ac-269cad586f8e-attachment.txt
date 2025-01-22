@@ -1,0 +1,27 @@
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v1/open-close//2024-12-02?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP ERROR REQUEST: [GET] ==================== 
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+
+
+ ==================== HTTP RESPONSE: [FAILED: 400 BadRequest] ==================== 
+GET https://api.polygon.io/v1/open-close//2024-12-02?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:50:47 GMT
+  Connection: keep-alive
+  X-Request-ID: 17e742969fc865f6f39b78f0fec6f76d
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+  Content-Length: 109
+}
+{"status":"ERROR","request_id":"17e742969fc865f6f39b78f0fec6f76d","error":"Ticker was incorrectly formatted"}
+606ms
+

@@ -1,0 +1,12 @@
+{
+  "uuid": "ceb71ae9-fb0a-4424-831c-0e46c887e16b",
+  "name": "PolygonAPITests.Tests.CheckStockRatesTests.GetDayLowRate(\"AMZN\")",
+  "children": [
+    "e49904da-6ea0-49ce-8465-9bda9701cb1d"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737539102924,
+  "stop": 1737539133441
+}

@@ -1,10 +1,13 @@
-using PolygonTests.APITests;
-using PolygonTests.SeleniumTests.POM;
+using PolygonAPITests.APITests;
 using Allure.NUnit;
-using PolygonTests.APITests.AlphaVantageAPI;
+using PolygonAPITests.APITests.AlphaVantageAPI;
+using Allure.NUnit.Attributes;
+using Allure.Net.Commons;
 
-namespace PolygonTests.Tests
+namespace PolygonAPITests.Tests
 {
+    [AllureNUnit]
+    [AllureEpic("Verify AlphaVentage and Polygon.IO API calls response")]
     public class CheckCallStatusTests : BaseTestAPI
     {
         private AlphaVantageRequests _alphaVentageRequests;
@@ -20,6 +23,9 @@ namespace PolygonTests.Tests
         }
 
         [Test,Description("Verify status code for PolygonGetTickerInfoAsync is 200")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("Polygon.IO response code")]
+        [AllureStory("Validate Polygon.IO response status code is 200")]
         public async Task PolygonGetTickerInfoAsync()
         {
             var response = await _polygonIORequests.GetTickerInfoAsync("IBM");
@@ -28,6 +34,9 @@ namespace PolygonTests.Tests
         }
 
         [Test, Description("Verify status code for PolygonGetOpenCloseData is 200")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("Polygon.IO response code")]
+        [AllureStory("Validate Polygon.IO response status code is 200")]
         public async Task PolygonGetOpenCloseData()
         {
             var response = await _polygonIORequests.GetOpenCloseData("IBM","2024-11-29");
@@ -36,6 +45,9 @@ namespace PolygonTests.Tests
         }
 
         [Test, Description("Verify status code for PolygonGetTickerDetails is 200")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("Polygon.IO response code")]
+        [AllureStory("Validate Polygon.IO response status code is 200")]
         public async Task PolygonGetTickerDetails()
         {
             var response = await _polygonIORequests.GetTickerDetails("IBM");
@@ -45,6 +57,9 @@ namespace PolygonTests.Tests
 
        
         [Test, Description("Verify status code for AlphaGetOpenCloseData is 200")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("AlphaVantage response code")]
+        [AllureStory("Validate AlphaVantage response status code is 200")]
         public async Task AlphaGetOpenCloseData()
         {
             var response = await _alphaVentageRequests.GetOpenCloseDataByDate("IBM");
@@ -53,6 +68,9 @@ namespace PolygonTests.Tests
         }
 
         [Test, Description("Verify status code for AlphaGetLastDayOpenClose is 200")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("AlphaVantage response code")]
+        [AllureStory("Validate AlphaVantage response status code is 200")]
         public async Task AlphaGetLastDayOpenClose()
         {
             var response = await _alphaVentageRequests.GetLastDayOpenClose("IBM");
@@ -61,6 +79,9 @@ namespace PolygonTests.Tests
         }
 
         [Test, Description("Verify status code for AlphaGetComapnyOverview is 200")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("AlphaVantage response code")]
+        [AllureStory("Validate AlphaVantage response status code is 200")]
         public async Task AlphaGetComapnyOverview()
         {
             var response = await _alphaVentageRequests.GetComapnyOverview("IBM");

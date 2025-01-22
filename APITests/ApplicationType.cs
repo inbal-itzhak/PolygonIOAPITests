@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PolygonTests.APITests
+namespace PolygonAPITests.APITests
 {
     static class ApplicationType
     {

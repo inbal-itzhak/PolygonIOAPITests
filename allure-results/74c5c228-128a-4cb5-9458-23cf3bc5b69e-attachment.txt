@@ -1,0 +1,153 @@
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:51:48 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: d25e1018e92e7b356bc16f38135d8140
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"request_id":"d25e1018e92e7b356bc16f38135d8140","results":{"ticker":"IBM","name":"International Business Machines Corporation","market":"stocks","locale":"us","primary_exchange":"XNYS","type":"CS","active":true,"currency_name":"usd","cik":"0000051143","composite_figi":"BBG000BLNNH6","share_class_figi":"BBG001S5S399","market_cap":2.0736092178752e+11,"phone_number":"(914) 499-1900","address":{"address1":"1 NEW ORCHARD ROAD","city":"ARMONK","state":"NY","postal_code":"10504"},"description":"IBM looks to be a part of every aspect of an enterprise's IT needs. The company primarily sells software, IT services, consulting, and hardware. IBM operates in 175 countries and employs approximately 350,000 people. The company has a robust roster of 80,000 business partners to service 5,200 clients, which includes 95% of all Fortune 500. While IBM is a B2B company, IBM's outward impact is substantial. For example, IBM manages 90% of all credit card transactions globally and is responsible for 50% of all wireless connections in the world.","sic_code":"3570","sic_description":"COMPUTER & OFFICE EQUIPMENT","ticker_root":"IBM","homepage_url":"http://www.ibm.com","total_employees":282200,"list_date":"1949-01-28","branding":{"logo_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_logo.svg","icon_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_icon.jpeg"},"share_class_shares_outstanding":924650000,"weighted_shares_outstanding":924645152,"round_lot":100},"status":"OK"}
+140ms
+
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:51:48 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: af33e212550dd705808ec5979fda0821
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"request_id":"af33e212550dd705808ec5979fda0821","results":{"ticker":"IBM","name":"International Business Machines Corporation","market":"stocks","locale":"us","primary_exchange":"XNYS","type":"CS","active":true,"currency_name":"usd","cik":"0000051143","composite_figi":"BBG000BLNNH6","share_class_figi":"BBG001S5S399","market_cap":2.0736092178752e+11,"phone_number":"(914) 499-1900","address":{"address1":"1 NEW ORCHARD ROAD","city":"ARMONK","state":"NY","postal_code":"10504"},"description":"IBM looks to be a part of every aspect of an enterprise's IT needs. The company primarily sells software, IT services, consulting, and hardware. IBM operates in 175 countries and employs approximately 350,000 people. The company has a robust roster of 80,000 business partners to service 5,200 clients, which includes 95% of all Fortune 500. While IBM is a B2B company, IBM's outward impact is substantial. For example, IBM manages 90% of all credit card transactions globally and is responsible for 50% of all wireless connections in the world.","sic_code":"3570","sic_description":"COMPUTER & OFFICE EQUIPMENT","ticker_root":"IBM","homepage_url":"http://www.ibm.com","total_employees":282200,"list_date":"1949-01-28","branding":{"logo_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_logo.svg","icon_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_icon.jpeg"},"share_class_shares_outstanding":924650000,"weighted_shares_outstanding":924645152,"round_lot":100},"status":"OK"}
+140ms
+
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:51:48 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: f275e11fd7cbdf893507c174d31c5a13
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"request_id":"f275e11fd7cbdf893507c174d31c5a13","results":{"ticker":"IBM","name":"International Business Machines Corporation","market":"stocks","locale":"us","primary_exchange":"XNYS","type":"CS","active":true,"currency_name":"usd","cik":"0000051143","composite_figi":"BBG000BLNNH6","share_class_figi":"BBG001S5S399","market_cap":2.0736092178752e+11,"phone_number":"(914) 499-1900","address":{"address1":"1 NEW ORCHARD ROAD","city":"ARMONK","state":"NY","postal_code":"10504"},"description":"IBM looks to be a part of every aspect of an enterprise's IT needs. The company primarily sells software, IT services, consulting, and hardware. IBM operates in 175 countries and employs approximately 350,000 people. The company has a robust roster of 80,000 business partners to service 5,200 clients, which includes 95% of all Fortune 500. While IBM is a B2B company, IBM's outward impact is substantial. For example, IBM manages 90% of all credit card transactions globally and is responsible for 50% of all wireless connections in the world.","sic_code":"3570","sic_description":"COMPUTER & OFFICE EQUIPMENT","ticker_root":"IBM","homepage_url":"http://www.ibm.com","total_employees":282200,"list_date":"1949-01-28","branding":{"logo_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_logo.svg","icon_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_icon.jpeg"},"share_class_shares_outstanding":924650000,"weighted_shares_outstanding":924645152,"round_lot":100},"status":"OK"}
+224ms
+
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:51:49 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: 7e97433afb86d0ed327f67e7e51f2b75
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"request_id":"7e97433afb86d0ed327f67e7e51f2b75","results":{"ticker":"IBM","name":"International Business Machines Corporation","market":"stocks","locale":"us","primary_exchange":"XNYS","type":"CS","active":true,"currency_name":"usd","cik":"0000051143","composite_figi":"BBG000BLNNH6","share_class_figi":"BBG001S5S399","market_cap":2.0736092178752e+11,"phone_number":"(914) 499-1900","address":{"address1":"1 NEW ORCHARD ROAD","city":"ARMONK","state":"NY","postal_code":"10504"},"description":"IBM looks to be a part of every aspect of an enterprise's IT needs. The company primarily sells software, IT services, consulting, and hardware. IBM operates in 175 countries and employs approximately 350,000 people. The company has a robust roster of 80,000 business partners to service 5,200 clients, which includes 95% of all Fortune 500. While IBM is a B2B company, IBM's outward impact is substantial. For example, IBM manages 90% of all credit card transactions globally and is responsible for 50% of all wireless connections in the world.","sic_code":"3570","sic_description":"COMPUTER & OFFICE EQUIPMENT","ticker_root":"IBM","homepage_url":"http://www.ibm.com","total_employees":282200,"list_date":"1949-01-28","branding":{"logo_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_logo.svg","icon_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_icon.jpeg"},"share_class_shares_outstanding":924650000,"weighted_shares_outstanding":924645152,"round_lot":100},"status":"OK"}
+143ms
+
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:51:49 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: ac20a04aefa8377f42addcff00eda722
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"request_id":"ac20a04aefa8377f42addcff00eda722","results":{"ticker":"IBM","name":"International Business Machines Corporation","market":"stocks","locale":"us","primary_exchange":"XNYS","type":"CS","active":true,"currency_name":"usd","cik":"0000051143","composite_figi":"BBG000BLNNH6","share_class_figi":"BBG001S5S399","market_cap":2.0736092178752e+11,"phone_number":"(914) 499-1900","address":{"address1":"1 NEW ORCHARD ROAD","city":"ARMONK","state":"NY","postal_code":"10504"},"description":"IBM looks to be a part of every aspect of an enterprise's IT needs. The company primarily sells software, IT services, consulting, and hardware. IBM operates in 175 countries and employs approximately 350,000 people. The company has a robust roster of 80,000 business partners to service 5,200 clients, which includes 95% of all Fortune 500. While IBM is a B2B company, IBM's outward impact is substantial. For example, IBM manages 90% of all credit card transactions globally and is responsible for 50% of all wireless connections in the world.","sic_code":"3570","sic_description":"COMPUTER & OFFICE EQUIPMENT","ticker_root":"IBM","homepage_url":"http://www.ibm.com","total_employees":282200,"list_date":"1949-01-28","branding":{"logo_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_logo.svg","icon_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_icon.jpeg"},"share_class_shares_outstanding":924650000,"weighted_shares_outstanding":924645152,"round_lot":100},"status":"OK"}
+140ms
+
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP ERROR REQUEST: [GET] ==================== 
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+
+
+ ==================== HTTP RESPONSE: [FAILED: 429 TooManyRequests] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 429, ReasonPhrase: 'Too Many Requests', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:51:49 GMT
+  Connection: keep-alive
+  X-Request-ID: 1a2ebffc00fc2a2ef25db3af1d8d6996
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+  Content-Length: 206
+}
+{"status":"ERROR","request_id":"1a2ebffc00fc2a2ef25db3af1d8d6996","error":"You've exceeded the maximum requests per minute, please wait or upgrade your subscription to continue. https://polygon.io/pricing"}
+138ms
+
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v3/reference/tickers/IBM?apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:52:49 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: 26ae42f98d7f19702324cb2b7553e204
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"request_id":"26ae42f98d7f19702324cb2b7553e204","results":{"ticker":"IBM","name":"International Business Machines Corporation","market":"stocks","locale":"us","primary_exchange":"XNYS","type":"CS","active":true,"currency_name":"usd","cik":"0000051143","composite_figi":"BBG000BLNNH6","share_class_figi":"BBG001S5S399","market_cap":2.0736092178752e+11,"phone_number":"(914) 499-1900","address":{"address1":"1 NEW ORCHARD ROAD","city":"ARMONK","state":"NY","postal_code":"10504"},"description":"IBM looks to be a part of every aspect of an enterprise's IT needs. The company primarily sells software, IT services, consulting, and hardware. IBM operates in 175 countries and employs approximately 350,000 people. The company has a robust roster of 80,000 business partners to service 5,200 clients, which includes 95% of all Fortune 500. While IBM is a B2B company, IBM's outward impact is substantial. For example, IBM manages 90% of all credit card transactions globally and is responsible for 50% of all wireless connections in the world.","sic_code":"3570","sic_description":"COMPUTER & OFFICE EQUIPMENT","ticker_root":"IBM","homepage_url":"http://www.ibm.com","total_employees":282200,"list_date":"1949-01-28","branding":{"logo_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_logo.svg","icon_url":"https://api.polygon.io/v1/reference/company-branding/aWJtLmNvbQ/images/2024-10-01_icon.jpeg"},"share_class_shares_outstanding":924650000,"weighted_shares_outstanding":924645152,"round_lot":100},"status":"OK"}
+142ms
+

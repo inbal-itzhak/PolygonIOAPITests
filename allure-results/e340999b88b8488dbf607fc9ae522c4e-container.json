@@ -1,0 +1,12 @@
+{
+  "uuid": "bbb53153-6713-4749-9fab-cef8766c9f15",
+  "name": "PolygonAPITests.Tests.CheckStockRatesTests.GetDayHighRate(\"MSFT\")",
+  "children": [
+    "79df1ea4-e977-42bd-9972-c52dc1803a59"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737538858904,
+  "stop": 1737538889400
+}

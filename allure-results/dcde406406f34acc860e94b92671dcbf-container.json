@@ -1,0 +1,12 @@
+{
+  "uuid": "ae87a189-0bc5-474d-8f9b-7f2458dc3001",
+  "name": "PolygonAPITests.Tests.CheckStockRatesTests.GetTradeVolume(\"BKNG\")",
+  "children": [
+    "0d992936-6087-440d-9813-0844c561c7bd"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737539286021,
+  "stop": 1737539316545
+}

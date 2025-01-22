@@ -1,0 +1,12 @@
+{
+  "uuid": "a3f77ea3-d8ee-4108-82d8-594b8858f4d6",
+  "name": "PolygonAPITests.Tests.CheckStockRatesTests.GetDayHighRate(\"BKNG\")",
+  "children": [
+    "4a358767-7ca3-498f-8783-8cb4a4d0df9b"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737538828402,
+  "stop": 1737538858904
+}

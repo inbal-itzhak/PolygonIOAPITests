@@ -1,0 +1,12 @@
+{
+  "uuid": "79a6db57-0ac8-4fe3-8023-dc261b0d7c12",
+  "name": "PolygonAPITests.Tests.StockTickerApiTests.XRateLimitErrorTest",
+  "children": [
+    "95616137-e063-4c02-8629-1b14198882d1"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737539500637,
+  "stop": 1737539571732
+}

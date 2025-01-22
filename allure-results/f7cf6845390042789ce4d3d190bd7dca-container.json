@@ -1,0 +1,12 @@
+{
+  "uuid": "8231188f-9660-408e-acfb-71402ee32be1",
+  "name": "PolygonAPITests.Tests.CheckCallStatusTests.AlphaGetComapnyOverview",
+  "children": [
+    "53a60417-a055-45a6-a84f-9f333c9e2016"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737538672994,
+  "stop": 1737538673837
+}

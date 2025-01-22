@@ -1,0 +1,68 @@
+{
+  "uuid": "48155f70-aa17-4b34-8208-52a3a88c2745",
+  "historyId": "ea30f51a5cbef6814001ce8276bcae1c",
+  "testCaseId": "0da2114c730417290558e7cd83835c18",
+  "fullName": "PolygonAPITests:PolygonAPITests.Tests.CheckCallStatusTests.AlphaGetOpenCloseData()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonAPITests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "AlphaGetOpenCloseData"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckCallStatusTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "AlphaVantage response code"
+    },
+    {
+      "name": "story",
+      "value": "Validate AlphaVantage response status code is 200"
+    },
+    {
+      "name": "epic",
+      "value": "Verify AlphaVentage and Polygon.IO API calls response"
+    }
+  ],
+  "links": [],
+  "name": "AlphaGetOpenCloseData",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify status code for AlphaGetOpenCloseData is 200\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "a28c9b84-ebb2-40a7-8306-cee4e298ac06-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1737538674003,
+  "stop": 1737538674161
+}

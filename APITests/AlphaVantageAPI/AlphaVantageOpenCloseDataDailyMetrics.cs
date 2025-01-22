@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 //using Newtonsoft.Json;
 
-namespace PolygonTests.APITests.AlphaVantageAPI
+namespace PolygonAPITests.APITests.AlphaVantageAPI
 {
     public class AlphaVantageOpenCloseDataDailyMetrics
     {

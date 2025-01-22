@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace PolygonTests.APITests.PolygonAPI
+namespace PolygonAPITests.APITests.PolygonAPI
 {
     public class PolygonOpenCloseData
     {

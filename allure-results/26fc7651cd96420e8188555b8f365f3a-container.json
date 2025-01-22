@@ -1,0 +1,12 @@
+{
+  "uuid": "a3575036-e2b0-4e43-9512-686560405812",
+  "name": "PolygonAPITests.Tests.CheckCallStatusTests.PolygonGetTickerInfoAsync",
+  "children": [
+    "519a57ea-798d-4445-bbca-49fe380a90ed"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737538675080,
+  "stop": 1737538675232
+}

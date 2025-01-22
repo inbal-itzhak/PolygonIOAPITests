@@ -1,0 +1,40 @@
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v1/open-close/NFLX/2024-12-02?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v1/open-close/NFLX/2024-12-02?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:51:37 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: b11c590c2fc82a4a4018f9db1aa4e72e
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"status":"OK","from":"2024-12-02","symbol":"NFLX","open":887.51,"high":902.34,"low":884.12,"close":897.74,"volume":2.256697e+06,"afterHours":898,"preMarket":888}
+161ms
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=NFLX&apikey=ZMILG5AIDNBFAKO0
+{
+    "Global Quote": {
+        "01. symbol": "NFLX",
+        "02. open": "863.5300",
+        "03. high": "916.4000",
+        "04. low": "854.7450",
+        "05. price": "869.6800",
+        "06. volume": "9851351",
+        "07. latest trading day": "2025-01-21",
+        "08. previous close": "858.1000",
+        "09. change": "11.5800",
+        "10. change percent": "1.3495%"
+    }
+}
+554ms
+

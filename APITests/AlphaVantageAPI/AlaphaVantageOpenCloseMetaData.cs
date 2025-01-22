@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json.Serialization;
 
-namespace PolygonTests.APITests
+namespace PolygonAPITests.APITests
 {
     public class AlaphaVantageOpenCloseMetaData
     {

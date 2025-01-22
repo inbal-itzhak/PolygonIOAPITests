@@ -1,0 +1,12 @@
+{
+  "uuid": "7780788a-e5f7-4bb5-ae78-75f4ef132127",
+  "name": "PolygonAPITests.Tests.StockTickerApiTests.EmptyTickerString",
+  "children": [
+    "d1db4896-0daf-41a9-b721-4682903c5962"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737539438612,
+  "stop": 1737539449227
+}

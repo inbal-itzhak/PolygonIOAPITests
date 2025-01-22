@@ -1,0 +1,68 @@
+{
+  "uuid": "113e639c-197a-498f-8ec1-3fa5227b2689",
+  "historyId": "ac54bdd10ae8591128a264fb2416707a",
+  "testCaseId": "562afb832b740f39657f81987d011f37",
+  "fullName": "PolygonAPITests:PolygonAPITests.Tests.CheckCallStatusTests.AlphaGetLastDayOpenClose()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonAPITests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "AlphaGetLastDayOpenClose"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckCallStatusTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "AlphaVantage response code"
+    },
+    {
+      "name": "story",
+      "value": "Validate AlphaVantage response status code is 200"
+    },
+    {
+      "name": "epic",
+      "value": "Verify AlphaVentage and Polygon.IO API calls response"
+    }
+  ],
+  "links": [],
+  "name": "AlphaGetLastDayOpenClose",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify status code for AlphaGetLastDayOpenClose is 200\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "9eb86fd8-2af0-4435-8dd2-a73a64bd615f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1737538673843,
+  "stop": 1737538674002
+}

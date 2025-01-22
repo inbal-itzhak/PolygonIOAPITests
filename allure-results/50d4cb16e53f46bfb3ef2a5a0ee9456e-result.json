@@ -1,0 +1,68 @@
+{
+  "uuid": "53a60417-a055-45a6-a84f-9f333c9e2016",
+  "historyId": "3f59d9d9686d888e52528626330aa95e",
+  "testCaseId": "ee7212e167edfc56f1ba148150cfdbc9",
+  "fullName": "PolygonAPITests:PolygonAPITests.Tests.CheckCallStatusTests.AlphaGetComapnyOverview()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonAPITests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "AlphaGetComapnyOverview"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckCallStatusTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "AlphaVantage response code"
+    },
+    {
+      "name": "story",
+      "value": "Validate AlphaVantage response status code is 200"
+    },
+    {
+      "name": "epic",
+      "value": "Verify AlphaVentage and Polygon.IO API calls response"
+    }
+  ],
+  "links": [],
+  "name": "AlphaGetComapnyOverview",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify status code for AlphaGetComapnyOverview is 200\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "4e612915-8033-4ebb-b6ac-1b3165e65cab-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1737538672995,
+  "stop": 1737538673812
+}

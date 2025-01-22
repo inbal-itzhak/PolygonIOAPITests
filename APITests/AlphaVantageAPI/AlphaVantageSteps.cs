@@ -7,7 +7,7 @@ using Allure.NUnit.Attributes;
 using RestSharp;
 
 
-namespace PolygonTests.APITests.AlphaVantageAPI
+namespace PolygonAPITests.APITests.AlphaVantageAPI
 {
     public class AlphaVantageSteps : BaseTestAPI
     {
@@ -20,7 +20,8 @@ namespace PolygonTests.APITests.AlphaVantageAPI
             return alphaResponse;
         }
 
-      
+
+        
         public AlphaVantageSteps(RestClient client)
         {
             _client = client;
@@ -28,7 +29,7 @@ namespace PolygonTests.APITests.AlphaVantageAPI
             
         }
 
-        [AllureStep("send Get Open Close Data By Date for AlphaVantage")]
+        [AllureStep("AlphaVantage - send Get Open Close Data for {0} By Date")]
         public async Task<AlphaVantageOpenCloseResponseData> GetStockOpenCloseDataByDateAlphaVantage(string ticker)
         {
             var alphaResponse = await _alphaVentageRequests.GetOpenCloseDataByDate(ticker);
@@ -38,7 +39,7 @@ namespace PolygonTests.APITests.AlphaVantageAPI
             return alphaResponseData;
         }
 
-        [AllureStep("Get AlphaVantage Open Close MetaData")]
+        [AllureStep("AlphaVantage - Get Open Close MetaData")]
         public async Task<AlaphaVantageOpenCloseMetaData> GetAlphaVantageOpenCloseMetaData(AlphaVantageOpenCloseResponseData alphaResponseData)
         {
            // var alphaResponse = await _alphaVentageRequests.GetOpenCloseDataByDate(ticker, alphaApiKey);
@@ -49,7 +50,7 @@ namespace PolygonTests.APITests.AlphaVantageAPI
             return alphaMetaDataResponseData;
         }
 
-        [AllureStep("Get stock data for specific date")]
+        [AllureStep("AlphaVantage - Get stock data for{1}")]
         public async Task<AlphaVantageOpenCloseDataDailyMetrics> GetStockDataForDate(AlphaVantageOpenCloseResponseData response, string date)
         {
            // var alphaResponseData = await GetStockOpenCloseDataByDateAlphaVantage(ticker);

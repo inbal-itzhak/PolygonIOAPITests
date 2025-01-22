@@ -1,0 +1,12 @@
+{
+  "uuid": "5c62af0f-c366-4f48-af28-721bca6546de",
+  "name": "PolygonAPITests.Tests.StockTickerApiTests.TestTickerMaxCharsAllowedInput",
+  "children": [
+    "ab75e4f5-54d0-4083-affc-5e0cebb6f5ab"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737539459392,
+  "stop": 1737539469570
+}

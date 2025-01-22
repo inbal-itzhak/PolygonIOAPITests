@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace PolygonTests.APITests.AlphaVantageAPI
+namespace PolygonAPITests.APITests.AlphaVantageAPI
 {
     public class GlobalQuoteData
     {

@@ -1,0 +1,8 @@
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=
+{
+    "Error Message": "the parameter apikey is invalid or missing. Please claim your free API key on (https://www.alphavantage.co/support/#api-key). It should take less than 20 seconds."
+}
+155ms
+

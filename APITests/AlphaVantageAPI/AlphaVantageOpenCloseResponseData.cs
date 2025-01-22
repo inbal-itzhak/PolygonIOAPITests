@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json.Serialization;
 
-namespace PolygonTests.APITests.AlphaVantageAPI
+namespace PolygonAPITests.APITests.AlphaVantageAPI
 {
     public class AlphaVantageOpenCloseResponseData
     {

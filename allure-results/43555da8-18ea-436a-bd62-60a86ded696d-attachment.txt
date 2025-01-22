@@ -1,0 +1,22 @@
+PolygonClient in PolygonIORequests: RestSharp.RestClient
+ ==================== HTTP REQUEST: [GET] ==================== 
+GET https://api.polygon.io/v1/open-close/IBM/2024-11-29?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+User-Agent: RestSharp/112.1.0.0
+Accept: application/json
+
+
+ ==================== HTTP RESPONSE: [SUCCEEDED: 200 OK] ==================== 
+GET https://api.polygon.io/v1/open-close/IBM/2024-11-29?adjusted=true&apiKey=w07f4tOqikWuF24vjpZNQYfdWzxLIY7p
+StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.DecompressionHandler+GZipDecompressedContent, Headers:
+{
+  Date: Wed, 22 Jan 2025 09:37:52 GMT
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  X-Polygon-Cluster-Name: polygon-ny5
+  X-Request-ID: 0333831bfce49100052ef130ddf28766
+  Strict-Transport-Security: max-age=15724800; includeSubDomains
+  Content-Type: application/json
+}
+{"status":"OK","from":"2024-11-29","symbol":"IBM","open":227.75,"high":230.36,"low":227.19,"close":227.41,"volume":2.272114e+06,"afterHours":227.41,"preMarket":227.5}
+754ms
+

@@ -1,0 +1,12 @@
+{
+  "uuid": "39c2687c-507c-44c8-88fe-14c6584ee59e",
+  "name": "PolygonAPITests.Tests.StockTickerApiTests.ValidateOpenCloseResponseSchemaTest",
+  "children": [
+    "de1ab305-8648-46bc-a5fb-f6f28d6451b6"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737539489901,
+  "stop": 1737539500637
+}

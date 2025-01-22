@@ -1,15 +1,17 @@
-﻿using PolygonTests.APITests;
-using PolygonTests.SeleniumTests.POM;
+﻿using PolygonAPITests.APITests;
 using Allure.NUnit;
 using System.Text.Json;
 using RestSharp;
 using System.Net.Http.Json;
-using PolygonTests.APITests.PolygonAPI;
-using PolygonTests.APITests.AlphaVantageAPI;
-using OpenQA.Selenium.DevTools.V129.WebAuthn;
+using PolygonAPITests.APITests.PolygonAPI;
+using PolygonAPITests.APITests.AlphaVantageAPI;
+using Allure.NUnit.Attributes;
+using Allure.Net.Commons;
 
-namespace PolygonTests.Tests
+namespace PolygonAPITests.Tests
 {
+    [AllureNUnit]
+    [AllureEpic("")]
     public class StockTickerApiTests : BaseTestAPI
     {
         private AlphaVantageRequests _alphaVentageRequests;
@@ -28,7 +30,10 @@ namespace PolygonTests.Tests
         }
 
 
-        [Test, Description("Verify status code for PolygonGetTickerInfoAsync is 200")]
+        [Test, Description("Verify rate limit error when exceeding max API calls per minute")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("API Error Handling")]
+        [AllureStory("Verify rate limit error when exceeding max API calls per minute")]
         public async Task XRateLimitErrorTest()
         {
             int maxCallsPerMinute = 5;
@@ -50,6 +55,9 @@ namespace PolygonTests.Tests
         }
 
         [Test, Description("Validating the response schema for a stock ticker query")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("API Response Schema Validation")]
+        [AllureStory("Ensure open/close response schema matches expected format")]
         public async Task ValidateOpenCloseResponseSchemaTest()
         {
             string ticker = "NFLX";
@@ -75,6 +83,9 @@ namespace PolygonTests.Tests
 
         }
         [Test, Description("send request with empty ticker string")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("API Field Validation")]
+        [AllureStory("Test API with empty ticker string")]
         public async Task EmptyTickerString()
         {
             string ticker = "";
@@ -89,6 +100,9 @@ namespace PolygonTests.Tests
         }
 
         [Test,Description("send request with ticker name with special characters")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("API Field Validation")]
+        [AllureStory("Test API with special character ticker")]
         public async Task TestTickerSpecialChars()
         {
             string ticker = "NFL$";
@@ -103,6 +117,9 @@ namespace PolygonTests.Tests
         }
 
         [Test, Description("send request with ticker name with the Max chars allowed in nasdaq stocks:  5 chars")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("API Field Validation")]
+        [AllureStory("Test API with maximum allowed ticker length")]
         public async Task TestTickerMaxCharsAllowedInput()
         {
 
@@ -117,6 +134,9 @@ namespace PolygonTests.Tests
         }
 
         [Test, Description("send request with ticker longer name then the Max chars allowed in nasdaq stocks:  5 chars, this also tests non existing stock")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("API Field Validation")]
+        [AllureStory("Test API with longer than allowed ticker name")]
         public async Task TestTickerLongerTheMaxCharsAllowedInput()
         {
             string ticker = "GOOGLE";
@@ -131,6 +151,9 @@ namespace PolygonTests.Tests
         }
 
         [Test, Description("send request with ticker name 4 white spaces")]
+        [AllureSeverity(SeverityLevel.normal)]
+        [AllureFeature("API Field Validation")]
+        [AllureStory("Test API with whitespace in ticker")]
         public async Task TestTickerWhiteSpaces()
         {
             string ticker = "    ";

@@ -1,0 +1,68 @@
+{
+  "uuid": "c09c7fc3-c91b-4052-a073-e3d174113a4d",
+  "historyId": "719edd743da25b42c46239d8f84745d9",
+  "testCaseId": "1f890273a2b22708ae42e6f132492944",
+  "fullName": "PolygonAPITests:PolygonAPITests.Tests.StockTickerApiTests.TestTickerSpecialChars()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonAPITests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestTickerSpecialChars"
+    },
+    {
+      "name": "testClass",
+      "value": "StockTickerApiTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "API Field Validation"
+    },
+    {
+      "name": "story",
+      "value": "Test API with special character ticker"
+    },
+    {
+      "name": "epic",
+      "value": ""
+    }
+  ],
+  "links": [],
+  "name": "TestTickerSpecialChars",
+  "status": "passed",
+  "stage": "finished",
+  "description": "send request with ticker name with special characters\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "0a6a611b-e66a-4956-94be-0262b382f3f2-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1737539469572,
+  "stop": 1737539479736
+}

@@ -1,0 +1,68 @@
+{
+  "uuid": "5678c213-cd83-42d4-9f72-cee4f5472ce3",
+  "historyId": "e9936f29fa54771d7e6f634ffad3cd6e",
+  "testCaseId": "b11d7078dd994f04ba8ff32d06dd5c81",
+  "fullName": "PolygonAPITests:PolygonAPITests.Tests.CheckCallStatusTests.PolygonGetOpenCloseData()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3OBST43"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "PolygonAPITests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PolygonGetOpenCloseData"
+    },
+    {
+      "name": "testClass",
+      "value": "CheckCallStatusTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Polygon.IO response code"
+    },
+    {
+      "name": "story",
+      "value": "Validate Polygon.IO response status code is 200"
+    },
+    {
+      "name": "epic",
+      "value": "Verify AlphaVentage and Polygon.IO API calls response"
+    }
+  ],
+  "links": [],
+  "name": "PolygonGetOpenCloseData",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify status code for PolygonGetOpenCloseData is 200\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "43555da8-18ea-436a-bd62-60a86ded696d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1737538674162,
+  "stop": 1737538674923
+}
