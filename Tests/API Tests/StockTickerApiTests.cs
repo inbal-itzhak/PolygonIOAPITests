@@ -11,7 +11,7 @@ using Allure.Net.Commons;
 namespace PolygonAPITests.Tests
 {
     [AllureNUnit]
-    [AllureEpic("")]
+    [AllureEpic("Polygom.IO API Boundary and Error Handling")]
     public class StockTickerApiTests : BaseTestAPI
     {
         private AlphaVantageRequests _alphaVentageRequests;

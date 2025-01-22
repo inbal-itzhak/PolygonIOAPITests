@@ -8,8 +8,6 @@ using HttpTracer;
 using HttpTracer.Logger;
 using System.Net.Mime;
 using PolygonAPITests.APITests;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 using Microsoft.Extensions.Configuration;
 
 
@@ -19,7 +17,6 @@ namespace PolygonAPITests
     {
         public RestClient PolygonClient;
         public RestClient AlphaVantageClient;
-        public IWebDriver driver;
         public string alphaApiKey;
         public string polygonApiKey;
         public string baseURL;
