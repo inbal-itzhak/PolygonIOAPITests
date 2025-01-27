@@ -1,6 +1,5 @@
 using PolygonAPITests.APITests;
 using Allure.NUnit;
-using PolygonAPITests.APITests.AlphaVantageAPI;
 using Allure.NUnit.Attributes;
 using Allure.Net.Commons;
 
@@ -14,10 +13,11 @@ namespace PolygonAPITests.Tests
         private PolygonIORequests _polygonIORequests;
         string alphaApiKey = config["ApiKeys:AlphaVaentageApiKey"];
         string polygonApiKey = config["ApiKeys:PolygonIoApiKey"];
+
+
         [SetUp]
         public void Setup()
         {
-            
             _alphaVentageRequests = new AlphaVantageRequests(AlphaVantageClient, alphaApiKey);
             _polygonIORequests = new PolygonIORequests(PolygonClient, polygonApiKey);
         }
@@ -88,8 +88,5 @@ namespace PolygonAPITests.Tests
             Assert.IsNotNull(response);
             Assert.That((int)response.StatusCode, Is.EqualTo(200), $"Response status code is {response.StatusCode}, should be 200");
         }
-
-
-
     }
 }

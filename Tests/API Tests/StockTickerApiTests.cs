@@ -22,7 +22,6 @@ namespace PolygonAPITests.Tests
         [SetUp]
         public async Task Setup()
         {
-
             _alphaVentageRequests = new AlphaVantageRequests(AlphaVantageClient, alphaApiKey);
             _polygonIORequests = new PolygonIORequests(PolygonClient, polygonApiKey);
             // added a 10 seconds delay between each test so that the limit of 5 calls per minute will not pass.
@@ -54,6 +53,7 @@ namespace PolygonAPITests.Tests
             Assert.That((int)recoveryResponse.StatusCode, Is.EqualTo(200), "The 7th call should be successful after waiting 1 minute");
         }
 
+
         [Test, Description("Validating the response schema for a stock ticker query")]
         [AllureSeverity(SeverityLevel.normal)]
         [AllureFeature("API Response Schema Validation")]
@@ -79,9 +79,9 @@ namespace PolygonAPITests.Tests
             Assert.That(polygonResponseData.Low, Is.TypeOf<double>(), $"Expected 'Low' value {typeof(double)}, actual {polygonResponseData.Low.GetType()}");
             Assert.That(polygonResponseData.Close, Is.TypeOf<double>(), $"Expected 'Close' value  {typeof(double)}, actual {polygonResponseData.Close.GetType()}");
             Assert.That(polygonResponseData.Volume, Is.TypeOf<double>(), $"Expected 'Volume' value  {typeof(double)}, actual {polygonResponseData.Volume.GetType()}");
-
-
         }
+
+
         [Test, Description("send request with empty ticker string")]
         [AllureSeverity(SeverityLevel.normal)]
         [AllureFeature("API Field Validation")]
@@ -99,6 +99,7 @@ namespace PolygonAPITests.Tests
             Assert.That(polygonResponseData.Error, Is.EqualTo(expectedError), $"Error message is {polygonResponseData.Error}, should be {expectedError}");
         }
 
+
         [Test,Description("send request with ticker name with special characters")]
         [AllureSeverity(SeverityLevel.normal)]
         [AllureFeature("API Field Validation")]
@@ -107,7 +108,6 @@ namespace PolygonAPITests.Tests
         {
             string ticker = "NFL$";
             string date = "2024-12-02";
-            
             string expectedError = "Data not found.";
             var polygonResponse = await _polygonIORequests.GetOpenCloseData(ticker, date);
             Assert.IsNotNull(polygonResponse);
@@ -116,22 +116,22 @@ namespace PolygonAPITests.Tests
             Assert.That(polygonResponseData.Message, Is.EqualTo(expectedError), $"Error message is {polygonResponseData.Message}, should be {expectedError}");
         }
 
+
         [Test, Description("send request with ticker name with the Max chars allowed in nasdaq stocks:  5 chars")]
         [AllureSeverity(SeverityLevel.normal)]
         [AllureFeature("API Field Validation")]
         [AllureStory("Test API with maximum allowed ticker length")]
         public async Task TestTickerMaxCharsAllowedInput()
         {
-
             string ticker = "GOOGL";
             string date = "2024-12-02";
-         
             var polygonResponse = await _polygonIORequests.GetOpenCloseData(ticker,date);
             Assert.IsNotNull(polygonResponse);
             Assert.That((int)polygonResponse.StatusCode, Is.EqualTo(200), $"Response status code is {polygonResponse.StatusCode}, should be 200");
             var polygonResponseData = JsonSerializer.Deserialize<PolygonOpenCloseData>(polygonResponse.Content);
             Assert.That(polygonResponseData.Symbol, Is.EqualTo(ticker), $"Expected 'Symbol' value {ticker}, actual {polygonResponseData.Symbol}");
         }
+
 
         [Test, Description("send request with ticker longer name then the Max chars allowed in nasdaq stocks:  5 chars, this also tests non existing stock")]
         [AllureSeverity(SeverityLevel.normal)]
@@ -141,7 +141,6 @@ namespace PolygonAPITests.Tests
         {
             string ticker = "GOOGLE";
             string date = "2024-12-02";
-            
             string expectedError = "Data not found.";
             var polygonResponse = await _polygonIORequests.GetOpenCloseData(ticker,date);
             Assert.IsNotNull(polygonResponse);
@@ -149,6 +148,7 @@ namespace PolygonAPITests.Tests
             var polygonResponseData = JsonSerializer.Deserialize<PolygonNotFoundRequest>(polygonResponse.Content);
             Assert.That(polygonResponseData.Message, Is.EqualTo(expectedError), $"Error message is {polygonResponseData.Message}, should be {expectedError}");
         }
+
 
         [Test, Description("send request with ticker name 4 white spaces")]
         [AllureSeverity(SeverityLevel.normal)]
@@ -158,7 +158,6 @@ namespace PolygonAPITests.Tests
         {
             string ticker = "    ";
             string date = "2024-12-02";
-            
             string expectedError = "Data not found.";
             var polygonResponse = await _polygonIORequests.GetOpenCloseData(ticker,date);
             Assert.IsNotNull(polygonResponse);

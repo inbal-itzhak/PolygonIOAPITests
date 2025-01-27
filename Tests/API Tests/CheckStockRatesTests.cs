@@ -14,7 +14,6 @@ namespace PolygonAPITests.Tests
     [AllureEpic("Compare stock metrics from Polygon.IO API to AlphaVentage API")]
     public class CheckStockRatesTests : BaseTestAPI
     {
-       
         private AlphaVantageRequests _alphaVantageRequests;
         private PolygonIORequests _polygonIORequests;
         private PolygonSteps _polygonSteps;
@@ -23,6 +22,8 @@ namespace PolygonAPITests.Tests
         string alphaApiKey = config["ApiKeys:AlphaVantageApiKey"];
         string polygonApiKey = config["ApiKeys:PolygonIoApiKey"];
         string date;
+
+
         [SetUp]
         public async Task Setup()
         {
@@ -38,7 +39,6 @@ namespace PolygonAPITests.Tests
                 _lastTestName = currentTestName;
                 await Task.Delay(TimeSpan.FromSeconds(30));
             }
-           
         }
 
         [Test, Description($"Get Stock Open Rate for previous business day compare to AlphaVantage quote"),
@@ -78,8 +78,8 @@ namespace PolygonAPITests.Tests
             double alphaCloseRate = alphaMetrics.Close;
             Assert.That(polygonSymbol, Is.EqualTo(alphaSymbol), $"ticker should be {ticker} in PolygonIO it's {polygonSymbol} and in AlphaVantage it's {alphaSymbol}");
             Assert.That(polygonCloseRate, Is.EqualTo(alphaCloseRate), $"Expected open Rate is the AlphaVantage rate {alphaCloseRate}, actual in PolygonIO {polygonCloseRate}");
-            
         }
+
 
         [Test, Description("Get Stock High Rate for previous business day compare to AlphaVantage quote"),
          TestCaseSource(typeof(DataProvider), nameof(DataProvider.TickersToTest))]
@@ -98,8 +98,8 @@ namespace PolygonAPITests.Tests
             double alphaDayHighRate = alphaMetrics.High;
             Assert.That(polygonSymbol, Is.EqualTo(alphaSymbol), $"ticker should be {ticker} in PolygonIO it's {polygonSymbol} and in AlphaVantage it's {alphaSymbol}");
             Assert.That(polygonDayHighRate, Is.EqualTo(alphaDayHighRate), $"Expected open Rate is the AlphaVantage rate {alphaDayHighRate}, actual in PolygonIO {polygonDayHighRate}");
-
         }
+
 
         [Test, Description("Get Stock Low Rate for previous business day compare to AlphaVantage quote"),
       TestCaseSource(typeof(DataProvider), nameof(DataProvider.TickersToTest))]
